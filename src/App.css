@@ -1,0 +1,232 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  position: absolute;
+  background-color: #eeeeee;
+}
+.icons{
+  margin-right: 8px;
+  cursor: pointer;
+}
+.sideOne span{
+  margin-right: 8px;
+  margin-top: 5px;
+}
+.sideMid{
+  display: flex;
+  justify-content: center;
+}
+.sideMid div{
+  margin-right: 8px;
+}
+.previewCase{
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+}
+.button{
+  padding: 8px 25px;
+  background-color: #61dafb;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  outline: none;
+  border: 0.1px solid #1780e1;
+}
+.container{
+  width: 250px;
+  margin: 200px auto;
+  padding: 10;
+}
+.eachCase{
+  padding: 15px;
+  border: 1px solid #bebebe;
+  margin-bottom: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 2px;
+  font-size: medium;
+  font-weight: 500;
+  color: #282c34;
+}
+.eachCase:hover{
+  background-color: #eae5e5;
+}
+.eachImg{
+  width: 25px;
+  margin-right: 10px;
+}
+.AllBody{
+  background-color: #f5f5f5;
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.loginTitle{
+  margin-bottom: 10px;
+  color: #282c34;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+}
+.wmContainer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+.WBImageCase{
+  width: 300px;
+}
+.wBLogo{
+  width: 300px;
+}
+.input{
+  display: block;
+  width: 250px;
+  padding: 8px;
+  outline: none;
+  border: 2px solid #939494;
+  margin-top: 10px;
+}
+.forms{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.wmButtons{
+  color: #fff;
+  background-color: #5295d3;
+  border-radius: 5px;
+  width: 270px;
+  display: block;
+  margin-top: 30px;
+  padding: 10px;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.wmButtons:hover{
+  background-color: #4582ba;
+}
+.formSpace{
+  margin-top: 30px;
+}
+.labels{
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: #686868;
+}
+.resetCase{
+  width: 100%;
+  border-bottom: 2px solid #cecece;
+  text-align: center;
+  margin-top: 30px;
+  padding-bottom: 15px;
+  color: #4a4a4a;
+  font-weight: 500;
+}
+.resetCase span{
+  cursor: pointer;
+}
+.resetCase span:hover{
+  color: #ce4527;
+}
+.needHelp{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 17px;
+  color: #4a4a4a;
+  font-weight: 600;
+  padding-bottom: 50px;
+  border-bottom: 2px solid #cecece;
+}
+.helpButton{
+  padding: 10px 20px;
+  background: linear-gradient(to bottom, #89c1c0 0%, #6d9796 100%);
+  outline: none;
+  border: 2px solid #6d9796;
+  margin-top: 20px;
+  border-radius: 6px;
+  font-size: large;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+.lang{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.lang .langList{
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.langList li{
+  color: #4a4a4a;
+  font-weight: 500;
+  list-style: none;
+  font-size: 80%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.langList li:hover{
+  color: #ce4527;
+}
+.copyR{
+  width: 100%;
+}
+.copyChildren{
+  text-align: center;
+  display: block;
+  font-size: 70%;
+  color: #4a4a4a;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,272 @@
+*{
+    font-family: "Segoe UI","Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+    box-sizing: border-box;
+  }
+  
+  .body{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-image: url('./img/reason.jpg');
+  }
+  .App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: visible;
+    z-index: 99;
+    clear: both;
+    min-height: 28px;
+  }
+  .center-box{
+    margin-top: 20vh;
+    margin-bottom: auto;
+  }
+  
+  .main-logo{
+    height: 35px;
+    margin-bottom: 24px;
+  }
+  
+  .main-logo img{
+    max-width: 256px;
+    max-height: 36px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: fadeIn 1s;
+  }
+  .logo{
+    display: block;
+    text-align: left;
+  }
+  
+  .form-container{
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.6);
+    text-align: left;
+    max-width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 44px;
+  }
+  
+  .logo img{
+    max-width: 256px;
+    height: 24px;
+  }
+  
+  .title{
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #1b1b1b;
+    line-height: 1.75rem;
+    padding-bottom: 2.3632px;
+    padding-top: 2.3632px;
+    margin-top: 16px;
+  }
+  
+  .mini-dets{
+    font-size: .8125rem;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  
+  .formInput{
+    width: 100%;
+    margin-top: 16px;
+  }
+  
+  .slide{
+    border-style: solid;
+    padding: 6px 10px;
+    border-width: 1px;
+    border-color: rgba(0,0,0,0.6);
+    height: 36px;
+    outline: none;
+    background-color: transparent;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    padding-left: 0;
+    width: 100%;
+    font-size: inherit;
+    -webkit-animation: slide 0.6s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 6s forwards;
+    animation-delay: 2s;
+  }
+  @-webkit-keyframes slide{
+    100% { left: 0; }
+  }
+  
+  @keyframes slide{
+    100% { left: 0; }
+  }
+  
+  
+  .lower-container{
+    margin-top: 12.674px;
+    font-weight: 450;
+    line-height: 20px;
+    font-size: .8125rem;
+  }
+  
+  .a-ref{
+    color: rgb(32, 137, 222);
+    cursor: pointer;
+  }
+  
+  .create{
+    margin-bottom: 16px;
+  }
+  
+  .btn-container{
+    text-align: right;
+    margin-top: 26px;
+  }
+  .btn{
+    color: #fff;
+    border-color: #0067b8;
+    background-color: #0067b8;
+    padding: 8px 26px;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .bottom-option{
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.6);
+    text-align: left;
+    max-width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 44px;
+    margin-top: 17px;
+    margin-bottom: 70px;
+    font-weight: 400;
+    display: flex;
+    color: #303030;
+    cursor: pointer;
+  }
+  
+  .bottom-option:hover{
+    background-color: #e3e6ea;
+  }
+  
+  .r-icon{
+    font-size: 27px;
+    transform: scaleX(-1);
+    margin-right: 15px;
+    font-weight: 400;
+  }
+  
+  .classErr{
+    color: red;
+    font-size: .8125rem;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  
+  .name-holder{
+    margin-bottom: -16px;
+    font-size: .8125rem;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  
+  .message{
+    margin-bottom: -16px;
+    font-size: .8125rem;
+    font-weight: 400;
+    cursor: pointer;
+    color: rgb(223, 44, 44);
+  }
+  @media only screen and (max-width: 750px) {
+    .center-box{
+      margin-top: 7vh;
+      margin-bottom: auto;
+    }
+    .form-container{
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0);
+      text-align: left;
+      max-width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 44px;
+    }
+    .bottom-option{
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: left;
+      max-width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 10px 44px;
+      margin-top: 17px;
+      font-weight: 400;
+      display: flex;
+      color: #303030;
+      cursor: pointer;
+    }
+    .main-logo{
+      height: 35px;
+      margin-bottom: 24px;
+      display: none;
+    }
+    
+    .main-logo img{
+      max-width: 256px;
+      max-height: 36px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      animation: fadeIn 1s;
+    }
+    body{
+      background-color: #fff;
+        background-image: none;
+    }
+  }
